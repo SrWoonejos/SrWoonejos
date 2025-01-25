@@ -1,0 +1,44 @@
+body {
+  background-color: #0A0A0A; /* Fondo oscuro */
+  color: #FFFFFF; /* Texto blanco */
+  font-family: 'Arial', sans-serif;
+}
+h1, h2 {
+  color: #00b3ff; /* Neon verde */
+  text-shadow: 0 0 5px #00b3ff, 0 0 10px #00b3ff, 0 0 20px #00b3ff;
+}
+header {
+  padding-top: 80px !important;
+}
+.neon-text {
+  color: #ff00d0; /* Neon verde */
+  text-shadow: 0 0 3px #ff00d0, 0 0 5px #ff00d0, 0 0 10px #ff00d0;
+}
+.neon-border {
+  border: 2px solid #00b3ff;
+  box-shadow: 0 0 5px #00b3ff, 0 0 10px #00b3ff, 0 0 20px #00b3ff;
+}
+.btn-neon {
+  background-color: transparent;
+  border: 2px solid #00b3ff;
+  color: #00b3ff;
+  text-shadow: 0 0 5px #00b3ff, 0 0 10px #00b3ff;
+  box-shadow: 0 0 5px #00b3ff, 0 0 10px #00b3ff;
+  transition: all 0.3s ease;
+}
+.btn-neon:hover {
+  background-color: #00b3ff;
+  color: #0A0A0A;
+  text-shadow: none;
+  box-shadow: 0 0 20px #00b3ff, 0 0 40px #00b3ff;
+}
+.section {
+  padding: 60px 0;
+}
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px solid #00b3ff;
+  box-shadow: 0 0 10px #00b3ff, 0 0 20px #00b3ff;
+}
